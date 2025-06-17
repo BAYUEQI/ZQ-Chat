@@ -1,32 +1,19 @@
-# NodeCrypt
+# ZQ-Chat
 
-🌐 **[English README](README_EN.md)**
+
 
 ## 🚀 部署说明
 
 ### 方法一：一键部署到 Cloudflare Workers
 
 点击下方按钮即可一键部署到 Cloudflare Workers：
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button?projectName=NodeCrypt)](https://deploy.workers.cloudflare.com/?url=https://github.com/shuaiplus/NodeCrypt)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button?projectName=NodeCrypt)](https://deploy.workers.cloudflare.com/?url=https://github.com/BAYUEQI/ZQ-Chat)
 > 注意：此方式会基于主仓库创建新项目，后续主仓库更新不会自动同步。
 
 ### 方法二：自动同步 fork 并部署（推荐长期维护）
 1. 先 fork 本项目到你自己的 GitHub 账号。
 2. 打开 Cloudflare Workers 控制台，选择“从 GitHub 导入”，并选择你 fork 的仓库进行部署。
 > 本项目已内置自动同步 workflow，fork 后无需任何操作，主仓库的更新会自动同步到你的 fork 仓库，Cloudflare 也会自动重新部署，无需手动维护。
-
-### 方法三：Docker 一键部署（推荐自托管）
-
-```bash
-docker run -d --name nodecrypt -p 80:80 ghcr.io/shuaiplus/nodecrypt
-```
-
-
-访问 http://localhost:80
-
-### 方法四：本地开发部署
-克隆项目并安装依赖后，使用 `npm run dev` 启动开发服务器。
-使用 `npm run deploy` 部署到 Cloudflare Workers。
 
 ## 📝 项目简介
 
@@ -163,9 +150,7 @@ sequenceDiagram
 本项目仅供学习和技术研究使用，不得用于任何违法犯罪活动。使用者应遵守所在国家和地区的相关法律法规。项目作者不承担因使用本软件而产生的任何法律责任。请在合法合规的前提下使用本项目。
 
 ---
-## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=shuaiplus/NodeCrypt&type=Timeline)](https://www.star-history.com/#shuaiplus/NodeCrypt&Timeline)
 
 **NodeCrypt** - 真正的端到端加密通信 🔐
 
